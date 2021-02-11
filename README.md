@@ -1,5 +1,5 @@
 
-<div><img align="center" src="assets/images/Logos/guaje-logo-transp-01.png" /></div>
+<div style="text-align:center;"><img align="center" src="assets/images/Logos/guaje-logo-transp-01.png" /></div>
 <h1 align="center">Guaje Mates</h1>
 
 Proyecto final para el curso de desarrollo web de Coderhouse.
