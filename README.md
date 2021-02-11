@@ -1,5 +1,5 @@
 ![logo](assets/images/Logos/guaje-logo-transp-01.png)
-<div style="text-align:center"><img src="assets/images/Logos/guaje-logo-transp-01.png" /></div>
+<div style="text-align:center;"><img src="assets/images/Logos/guaje-logo-transp-01.png" /></div>
 
 Proyecto final para el curso de desarrollo web de Coderhouse.
 
