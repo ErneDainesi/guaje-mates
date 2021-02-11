@@ -1,4 +1,3 @@
-
 <img align="center" src="assets/images/Logos/guaje-logo-transp-01.png" />
 
 
