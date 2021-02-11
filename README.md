@@ -1,5 +1,5 @@
 <p align = "center">
-  <img align="center" src="assets/images/Logos/guaje-logo-transp-01.png" />
+  <img src="assets/images/Logos/guaje-logo-transp-01.png" />
 </p>
 
 Proyecto final para el curso de desarrollo web de Coderhouse.
