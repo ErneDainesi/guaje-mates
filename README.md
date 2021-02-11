@@ -1,7 +1,7 @@
-<div style="text-align: center;">
+<p align = "center">
   <img align="center" src="assets/images/Logos/guaje-logo-transp-01.png" />
   <h1 style="text-align:center;">Guaje Mates</h1>
-</div>
+</p>
 
 Proyecto final para el curso de desarrollo web de Coderhouse.
 
