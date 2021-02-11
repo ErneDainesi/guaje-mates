@@ -1,4 +1,4 @@
-# Guaje Mates ![logo](assets/images/Logos/guaje-logo-transp-01.png)
+![logo](assets/images/Logos/guaje-logo-transp-01.png)
 
 Proyecto final para el curso de desarrollo web de Coderhouse.
 
