@@ -1,2 +1,2 @@
 # guaje-mates
-Proyecto final curso de desarrollo web para Coderhouse
+## Proyecto final para el curso de desarrollo web de Coderhouse
