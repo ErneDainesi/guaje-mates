@@ -268,9 +268,18 @@ a:hover {
 
 /* PRODUCTOS */
 
-.productosText__title {
-  font-size: $lg-font-size;
+.productosText {
+  display: flex;
+  flex-direction: column;
   text-align: center;
+
+  &__title {
+    font-size: $lg-font-size;
+  }
+
+  &__subtitle {
+    font-size: $md-font-size;
+  }
 }
 
 .productos {
@@ -279,7 +288,7 @@ a:hover {
   justify-content: space-evenly;
 
   &__img {
-    @include sizes(400px, 400px);
+    @include sizes(350px, 350px);
   }
 
   .carousel-item {
@@ -304,6 +313,18 @@ a:hover {
 
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233d3636' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  background-color: $carousel-control-hover-bgd;
+}
+
+.carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  height: 568px;
 }
 
 /* MOMENTOS GUAJE */
