@@ -127,8 +127,7 @@ a:hover {
   justify-content: space-evenly;
   align-items: center; }
   .productosSection__producto {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     margin: 5%; }
   .productosSection__img {
     width: 400px;
@@ -320,10 +319,11 @@ a:hover {
       flex-direction: column;
       align-content: center; }
     .productosSection__img {
-      width: 300px;
-      height: 300px; }
+      width: 250px;
+      height: 250px; }
     .productosSection__link {
       text-align: center;
+      align-self: center;
       color: #ffffff;
       text-decoration: none;
       font-size: 20px; }

@@ -175,8 +175,7 @@ a:hover {
   align-items: center;
 
   &__producto {
-    display: flex;
-    flex-direction: column;
+    text-align: center;
     margin: 5%;
   }
 
@@ -464,11 +463,12 @@ a:hover {
     }
 
     &__img {
-      @include sizes(300px, 300px);
+      @include sizes(250px, 250px);
     }
 
     &__link {
       text-align: center;
+      align-self: center;
       color: $white-text;
       text-decoration: none;
       font-size: $sm-font-size;
