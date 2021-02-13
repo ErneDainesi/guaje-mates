@@ -250,6 +250,12 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; }
+  .galeria__card {
+    margin: 2%; }
+  .galeria__cardButton {
+    color: #ffffff; }
+  .galeria__modal {
+    text-align: center; }
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 768px) {

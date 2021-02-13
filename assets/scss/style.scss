@@ -356,6 +356,18 @@ a:hover {
     flex-direction: row;
     justify-content: space-evenly;
   }
+
+  &__card {
+    margin: 2%;
+  }
+
+  &__cardButton {
+    color: $white-text;
+  }
+
+  &__modal {
+    text-align: center;
+  }
 }
 
 /* MEDIA QUERIES */
