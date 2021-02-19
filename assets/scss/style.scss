@@ -180,7 +180,6 @@ a:hover {
   }
 
   &__img {
-    @include sizes(400px, 400px);
     margin-bottom: 2%;
   }
 
@@ -314,9 +313,9 @@ a:hover {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233d3636' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
 }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background-color: $carousel-control-hover-bgd;
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  @include sizes(40px, 40px);
 }
 
 .carousel-inner {

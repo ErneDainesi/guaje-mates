@@ -130,8 +130,6 @@ a:hover {
     text-align: center;
     margin: 5%; }
   .productosSection__img {
-    width: 400px;
-    height: 400px;
     margin-bottom: 2%; }
   .productosSection__button {
     align-self: center;
@@ -178,7 +176,7 @@ a:hover {
 
 .form {
   margin-top: 3%;
-  margin-bottom: 8.87%; }
+  margin-bottom: 6.5%; }
   .form #textArea {
     height: 210px; }
   .form__sendButton, .form__resetButton {
@@ -221,9 +219,10 @@ a:hover {
 .carousel-control-next-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%233d3636' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E"); }
 
-.carousel-control-prev:hover,
-.carousel-control-next:hover {
-  background-color: #ebebeb; }
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  width: 40px;
+  height: 40px; }
 
 .carousel-inner {
   position: relative;
