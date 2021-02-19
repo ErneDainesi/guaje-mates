@@ -176,15 +176,19 @@ a:hover {
 
 .form {
   margin-top: 3%;
-  margin-bottom: 6.5%; }
+  margin-bottom: 6.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
   .form #textArea {
     height: 210px; }
+  .form__buttons {
+    text-align: center; }
   .form__sendButton, .form__resetButton {
     color: #ffffff;
     font-size: 18px;
     background-color: #deca95;
-    border: none;
-    border-radius: 12px; }
+    border: none; }
 
 /* PRODUCTOS */
 .productosText {

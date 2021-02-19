@@ -249,9 +249,16 @@ a:hover {
 .form {
   margin-top: 3%;
   margin-bottom: 6.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 
   #textArea {
     height: 210px;
+  }
+
+  &__buttons {
+    text-align: center;
   }
 
   &__sendButton,
@@ -260,7 +267,6 @@ a:hover {
     font-size: 18px;
     background-color: $bgr-color;
     border: none;
-    border-radius: 12px;
   }
 }
 
