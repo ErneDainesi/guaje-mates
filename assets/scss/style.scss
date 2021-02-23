@@ -1,6 +1,11 @@
 @import "colors";
 @import "font-sizes";
 
+@mixin sizes($width, $height) {
+  width: $width;
+  height: $height;
+}
+
 /* GENERAL */
 
 .monserratBold {
@@ -39,11 +44,6 @@ a:hover {
 
 .bottomBuffer {
   margin-bottom: 3.4%;
-}
-
-@mixin sizes($width, $height) {
-  width: $width;
-  height: $height;
 }
 
 /* NAVBAR */
@@ -291,23 +291,31 @@ a:hover {
   flex-direction: column;
   justify-content: space-evenly;
 
-  &__img {
-    @include sizes(350px, 350px);
+  &__mates,
+  &__bombillas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 
-  .carousel-item {
-    text-align: center;
-    margin: 2% auto 5% auto;
-  }
-
-  &__title {
+  &__matesSectionTitle,
+  &__bombillasSectionTitle {
     text-align: center;
     font-size: $lg-font-size;
   }
 
-  &__subTitle {
+  &__title {
     text-align: center;
     font-size: $md-font-size;
+  }
+
+  &__subTitle {
+    text-align: center;
+    font-size: $sm-font-size;
+  }
+
+  &__button {
+    color: $white-text;
   }
 }
 
