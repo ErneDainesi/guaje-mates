@@ -203,19 +203,29 @@ a:hover {
 .productos {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly; }
-  .productos__mates, .productos__bombillas {
+  justify-content: space-evenly;
+  margin-top: 3%;
+  margin-bottom: 3%; }
+  .productos__mates, .productos__bombillas, .productos__combos {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
-  .productos__matesSectionTitle, .productos__bombillasSectionTitle {
+    justify-content: space-evenly;
+    margin-top: 2%; }
+  .productos__matesSection, .productos__bombillasSection, .productos__combosSection {
+    margin-bottom: 5%; }
+  .productos__matesSectionTitle, .productos__bombillasSectionTitle, .productos__combosSectionTitle {
     text-align: center;
     font-size: 45px; }
   .productos__title {
     text-align: center;
     font-size: 30px; }
-  .productos__subTitle {
-    text-align: center;
+  .productos__title--font-size {
+    font-size: 26px; }
+  .productos__subtitle {
+    text-align: left;
+    font-size: 20px; }
+  .productos__precio {
+    text-align: left;
     font-size: 20px; }
   .productos__button {
     color: #ffffff; }
