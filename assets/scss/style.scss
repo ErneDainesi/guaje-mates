@@ -477,7 +477,7 @@ a:hover {
 
   .mainProductSection {
     &__slogan {
-      font-size: 40px;
+      font-size: $md-font-size;
     }
 
     &__link {
@@ -522,38 +522,32 @@ a:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
 
     &__title {
       font-size: $md-font-size;
     }
 
     &__paragraph {
-      font-size: $sm-font-size;
+      font-size: 15px;
     }
 
     &__img {
-      @include sizes(300px, 450px);
-      margin-top: 5%;
-      margin-bottom: 5%;
-    }
-  }
-
-  .guajeInfoImg {
-    display: flex;
-    justify-content: center;
-
-    &__img {
-      @include sizes(300px, 450px);
-      margin-top: 5%;
-      margin-bottom: 5%;
+      @include sizes(330px, 450px);
     }
   }
 
   /* PRODUCTOS */
-
-  .productosText__title {
-    font-size: $md-font-size;
+  .productosText {
     text-align: center;
+    &__title {
+      font-size: $md-font-size;
+      text-align: center;
+    }
+
+    &__subtitle {
+      font-size: $sm-font-size;
+    }
   }
 
   .productos {
@@ -561,13 +555,14 @@ a:hover {
     flex-direction: column;
     justify-content: space-evenly;
 
-    &__img {
-      @include sizes(300px, 300px);
-    }
-
-    .carousel-item {
-      text-align: center;
-      margin: 2% auto 5% auto;
+    &__mates,
+    &__bombillas,
+    &__combos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 2%;
     }
 
     &__title {
@@ -575,9 +570,20 @@ a:hover {
       font-size: $md-font-size;
     }
 
-    &__subTitle {
-      text-align: center;
+    &__subtitle {
+      text-align: left;
       font-size: $sm-font-size;
+    }
+
+    &__matesSectionTitle,
+    &__bombillasSectionTitle,
+    &__combosSectionTitle {
+      font-size: $md-font-size;
+    }
+
+    .card {
+      margin-top: 2%;
+      margin-bottom: 2%;
     }
   }
 
@@ -609,13 +615,8 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: center;
       margin-top: 2%;
-    }
-
-    &__img {
-      @include sizes(300px, 300px);
-      margin-top: 2%;
-      margin-bottom: 2%;
     }
   }
 
@@ -629,8 +630,15 @@ a:hover {
     display: flex;
     flex-direction: column;
   }
+  .contactoText {
+    text-align: center;
 
-  .contactoText__title {
-    font-size: $md-font-size;
+    &__title {
+      font-size: $md-font-size;
+    }
+
+    &__subtitle {
+      font-size: $sm-font-size;
+    }
   }
 }

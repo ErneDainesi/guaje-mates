@@ -324,7 +324,7 @@ a:hover {
     .momentosGuajeSection__paragraph {
       font-size: 20px; }
   .mainProductSection__slogan {
-    font-size: 40px; }
+    font-size: 30px; }
   .mainProductSection__link {
     text-align: center;
     color: #ffffff;
@@ -353,44 +353,44 @@ a:hover {
   .guajeInfo {
     display: flex;
     flex-direction: column;
-    justify-content: center; }
+    justify-content: center;
+    text-align: center; }
     .guajeInfo__title {
       font-size: 30px; }
     .guajeInfo__paragraph {
-      font-size: 20px; }
+      font-size: 15px; }
     .guajeInfo__img {
-      width: 300px;
-      height: 450px;
-      margin-top: 5%;
-      margin-bottom: 5%; }
-  .guajeInfoImg {
-    display: flex;
-    justify-content: center; }
-    .guajeInfoImg__img {
-      width: 300px;
-      height: 450px;
-      margin-top: 5%;
-      margin-bottom: 5%; }
+      width: 330px;
+      height: 450px; }
   /* PRODUCTOS */
-  .productosText__title {
-    font-size: 30px;
+  .productosText {
     text-align: center; }
+    .productosText__title {
+      font-size: 30px;
+      text-align: center; }
+    .productosText__subtitle {
+      font-size: 20px; }
   .productos {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly; }
-    .productos__img {
-      width: 300px;
-      height: 300px; }
-    .productos .carousel-item {
-      text-align: center;
-      margin: 2% auto 5% auto; }
+    .productos__mates, .productos__bombillas, .productos__combos {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      margin-top: 2%; }
     .productos__title {
       text-align: center;
       font-size: 30px; }
-    .productos__subTitle {
-      text-align: center;
+    .productos__subtitle {
+      text-align: left;
       font-size: 20px; }
+    .productos__matesSectionTitle, .productos__bombillasSectionTitle, .productos__combosSectionTitle {
+      font-size: 30px; }
+    .productos .card {
+      margin-top: 2%;
+      margin-bottom: 2%; }
   /* MOMENTOS GUAJE */
   .momentosGuajeText {
     display: flex;
@@ -408,17 +408,17 @@ a:hover {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
+      align-items: center;
       margin-top: 2%; }
-    .galeria__img {
-      width: 300px;
-      height: 300px;
-      margin-top: 2%;
-      margin-bottom: 2%; }
   /* CONTACTO */
   .form__moreInfoCheckbox {
     font-size: 12px; }
   .form__userInfo {
     display: flex;
     flex-direction: column; }
-  .contactoText__title {
-    font-size: 30px; } }
+  .contactoText {
+    text-align: center; }
+    .contactoText__title {
+      font-size: 30px; }
+    .contactoText__subtitle {
+      font-size: 20px; } }
