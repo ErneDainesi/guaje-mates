@@ -41,6 +41,9 @@ a:hover {
 .navbar__logo {
   margin-left: 20%; }
 
+.selectedLink {
+  color: #1a1717; }
+
 /* FOOTER */
 .footer {
   display: flex;

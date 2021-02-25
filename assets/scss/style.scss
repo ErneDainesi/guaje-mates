@@ -61,6 +61,10 @@ a:hover {
   margin-left: 20%;
 }
 
+.selectedLink {
+  color: $selected-nav-link-color;
+}
+
 /* FOOTER */
 
 .footer {
