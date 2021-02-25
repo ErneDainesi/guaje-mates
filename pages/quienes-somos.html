@@ -37,11 +37,15 @@
       rel="stylesheet"
     />
 
+    <!-- Animate on scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- Social Media Icons -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <title>Guaje Mates - Nosotros</title>
   </head>
   <body>
@@ -104,8 +108,14 @@
             src="../assets/images/Quienes Somos/quienes-somos-editada.jpeg"
             alt="guaje"
             class="guajeInfo__img"
+            data-aos="fade-right"
+            data-aos-duration="1000"
           />
-          <div class="guajeInfo__text">
+          <div
+            class="guajeInfo__text"
+            data-aos="fade-left"
+            data-aos-duration="1000"
+          >
             <h1 class="guajeInfo__title monserratBold">G U A J E</h1>
             <p class="guajeInfo__paragraph monserratRegular">
               <strong>Guaje mates</strong> es un emprendimiento familiar
@@ -155,5 +165,9 @@
       integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
