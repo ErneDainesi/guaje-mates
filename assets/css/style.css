@@ -268,8 +268,13 @@ a:hover {
     justify-content: space-evenly; }
   .galeria__card {
     margin: 2%; }
+  .galeria__cardBody {
+    display: flex;
+    flex-direction: column; }
   .galeria__cardButton {
-    color: #ffffff; }
+    color: #ffffff;
+    align-self: flex-start;
+    margin-top: auto; }
   .galeria__modal {
     text-align: center; }
 
